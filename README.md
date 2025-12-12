@@ -15,3 +15,7 @@ We assume we have a laser shooting that amount of particles. Their velocity is a
 Besides the `GUI.py`, which the user has to run to get the custom interface, inside the folder `circuits`, one can find the needed code to make this work, namely, `circuit_layout.py`, where the basic quantum gates are presented, as well as the opportunity to create simple systems and "oracles" (black boxes) with them, `run_circuit.py`, where we define how we call Qiskit's backend and run the simulation, and `tunneling.py`, where we combine the previous two in a simple game to emmulate tunneling effects.
 
 Documentation from the Faculty of Sciences of University of Porto can be seen in the folder `doc`. More information can be seen on qiskit's official textbook: https://qiskit.org/textbook/preface.html or in their youtube channel.
+
+# GOAL
+
+This repository will turn into a general interface for tutorials and simulations of quantum effects, including condensed matter physics.
